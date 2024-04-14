@@ -1,0 +1,19 @@
+name: forms-demo
+main: forms_demo\Main
+src-namespace-prefix: forms_demo
+version: 1.0.0
+api: 5.0.0
+
+# uncomment this line if you don't want to use poggit virion
+# depend:
+#  - forms
+
+commands:
+  form:
+    description: Allows sending an example form to the target player
+    usage: /form <modal|menu|custom> [players ...]
+    permission: forms_demo.command.form
+permissions:
+  forms_demo.command.form:
+    description: Allows the use of /form
+    default: true

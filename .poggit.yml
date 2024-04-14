@@ -1,0 +1,12 @@
+---
+branches:
+  - master
+projects:
+  forms_demo:
+    path: ""
+    libs:
+      - src: Frago9876543210/forms/libforms
+        version: ^1.0.0
+    lint:
+      phpstan: false
+...

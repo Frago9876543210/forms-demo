@@ -1,0 +1,26 @@
+{
+   "name": "frago9876543210/forms-demo",
+   "require-dev": {
+      "pocketmine/pocketmine-mp": "^5.14",
+      "phpstan/phpstan": "^1.10.0",
+      "phpstan/phpstan-strict-rules": "^1.0",
+      "phpstan/extension-installer": "^1.0",
+      "frago9876543210/forms": "dev-master"
+   },
+   "autoload": {
+      "psr-4": {
+         "forms_demo\\": "src/"
+      }
+   },
+   "config": {
+      "allow-plugins": {
+         "phpstan/extension-installer": true
+      }
+   },
+   "repositories": [
+      {
+         "type": "vcs",
+         "url": "https://github.com/Frago9876543210/forms"
+      }
+   ]
+}
